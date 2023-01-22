@@ -1,0 +1,35 @@
+.navbar {
+    padding: 0;
+    margin-top: 31px;
+
+    .navbar__list {
+        .navbar-nav {
+            gap: 0 44px;
+
+            .nav-item {
+                .nav-link {
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: -0.01em;
+                    color: #030303;
+                }
+            }
+
+            .nav-item:first-child .nav-link {
+                font-weight: 600;
+            }
+        }
+    }
+
+    .btn {
+        padding: 15px 36px;
+        border-radius: 12px;
+        background-color: #E8F1FF;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.01em;
+        color: #2378FF;
+    }
+}

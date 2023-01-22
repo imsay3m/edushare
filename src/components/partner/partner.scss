@@ -1,0 +1,29 @@
+.partner {
+    margin-top: 125px;
+    margin-bottom: 130px;
+    padding-left: 0;
+
+    .row {
+        .partner__left {
+            .partner__count {
+                font-weight: 700;
+                font-size: 62px;
+                line-height: 75px;
+                color: #101131;
+            }
+
+            .partner__text {
+                max-width: 230px;
+                color: #606176;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: -0.01em;
+            }
+        }
+
+        .partner__right {
+            column-gap: 45px;
+        }
+    }
+}

@@ -1,0 +1,97 @@
+.testimonial {
+    max-width: 1105px;
+    padding: 0;
+    margin-bottom: 130px;
+
+    .testimonial__top {
+        margin-bottom: 60px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        .top__left {
+            .testimonial__heading {
+                max-width: 435px;
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 56px;
+                letter-spacing: -0.01em;
+                color: #101130;
+
+            }
+        }
+
+        .top__right {
+            max-width: 120px;
+
+            .slider__icon {
+                .fa-arrow-left {
+                    color: #606176;
+                    font-size: 34px;
+                    margin-right: 35px;
+                }
+
+                .fa-arrow-right {
+                    color: #101130;
+                    font-size: 34px;
+                }
+            }
+        }
+    }
+
+    .testimonial__bottom {
+        .testimonial__review {
+            h5 {
+                max-width: 337px;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 28px;
+                color: #101130;
+            }
+
+            p {
+                margin-top: 35px;
+                margin-bottom: 45px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                color: #606176;
+            }
+
+            .testimonial__reviewer {
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                column-gap: 27px;
+
+                .reviewer__text {
+                    h4 {
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 24px;
+                        letter-spacing: -0.01em;
+                        color: #101130;
+                    }
+
+                    p {
+                        margin-top: 4px;
+                        margin-bottom: 8px;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #606176;
+                    }
+
+                    span {
+                        .fa-star {
+                            color: #FFB800;
+                            font-size: 13px;
+                            margin-right: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

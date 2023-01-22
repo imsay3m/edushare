@@ -1,0 +1,74 @@
+.features {
+    padding: 0;
+    margin-bottom: 130px;
+
+    .row {
+        margin-top: 148px;
+        margin-bottom: 148px;
+
+        .features__left {
+            .features__heading {
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 56px;
+                letter-spacing: -0.01em;
+                color: #101130;
+            }
+
+            .features__text {
+                max-width: 435px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                color: #606176;
+                margin-top: 35px;
+                margin-bottom: 25px;
+            }
+
+            .features__btn {
+                background: #F77E53;
+                border-radius: 16px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                letter-spacing: -0.01em;
+                color: #FEF4F1;
+                padding: 20px 48px;
+            }
+        }
+
+        .features__right {
+            position: relative;
+
+            .lecture__video {
+                position: relative;
+
+                background: url(../../assets/images/features/features-right-bg.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                left: 44px;
+
+                .lecture__img {
+                    padding-bottom: 123px;
+                    padding-top: 83px;
+                }
+
+                .play__icon {
+                    position: absolute;
+                    top: 50%;
+                    left: 40%;
+                    transform: translate(-50%, -50%);
+                    z-index: 5;
+
+
+                    i {
+                        font-size: 65px;
+                        color: #2076FF;
+                        background-color: #FFFFFF;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

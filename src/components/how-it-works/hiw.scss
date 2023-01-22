@@ -1,0 +1,42 @@
+.how-it-works {
+    padding: 0;
+    margin-bottom: 130px;
+
+    .row {
+        .how-it-works__right {
+            .hiw__text {
+                max-width: 430px;
+                font-weight: 700;
+                font-size: 44px;
+                line-height: 56px;
+                letter-spacing: -0.01em;
+                color: #101130;
+                margin-bottom: 60px;
+            }
+
+            .hiw__card {
+                .hiw__card--item {
+                    margin-bottom: 45px;
+
+                    .hiw__card--title {
+                        margin-top: 26px;
+                        margin-bottom: 12px;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #101130;
+                    }
+
+                    .hiw__card--text {
+                        max-width: 265px;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 30px;
+                        color: #606176;
+                    }
+
+                }
+            }
+        }
+    }
+}
