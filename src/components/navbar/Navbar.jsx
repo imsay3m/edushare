@@ -17,7 +17,7 @@ function Navbar() {
 
                 <div className="collapse navbar-collapse navbar__list" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto">
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
