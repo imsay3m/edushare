@@ -1,6 +1,6 @@
 import './App.scss';
 import React from 'react';
-import Pages from "./Router/Pages";
+import Pages from "./router/Pages";
 
 
 function App() {
