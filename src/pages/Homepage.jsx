@@ -7,7 +7,7 @@ import Cart from '../components/cart/Cart';
 // import Features from '../components/features/Features';
 import Testimonial from '../components/testimonial/Testimonial';
 import Pricing from '../components/pricing/Pricing';
-import Footer from "../components/footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 
 
